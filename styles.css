@@ -1,0 +1,234 @@
+body {
+    background-color: darkgray;
+}
+
+.encabezado {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.encabezado img {
+    width: 2vw;
+    height: 100%;
+    margin-left: 3vw;
+}
+
+.titulo {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 3vw;
+    font-family: "Inter";
+    font-style: normal;
+}
+
+.titulo a{
+    text-decoration: none;
+}
+
+.titulo a:visited{
+    color: black;
+}
+
+main {
+    display: flex;
+}
+
+.seccion-entrada {
+    background-color: gray;
+    width: 66%;
+    height: 85vh;
+    border-radius: 20px;
+    margin: 0 2%;
+    box-shadow: 0 0 8px black;
+}
+
+.seccion-salida {
+    background-color: gray;
+    width: 28%;
+    height: 85vh;
+    border-radius: 20px;
+    margin: 0 2% 0 0;
+    box-shadow: 0 0 8px black;
+}
+
+.pie-pagina {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.area-texto {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+#entrada-texto {
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    background-color: gray;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    color: #0a3871;
+}
+
+::placeholder {
+    color: #0a3871;
+}
+
+.advertencia {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    height: 5%;
+    margin: 0 auto;
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 12px;
+    color: black;
+}
+
+.advertencia img {
+    margin-left: 8vw;
+    margin-right: 1vw;
+}
+
+.botones {
+    margin: 0 auto;
+    width: 80%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.boton {
+    height: 60%;
+    width: 35%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+}
+
+.encriptar {
+    background-color: #0a3871;
+    color: white;
+}
+
+.desencriptar {
+    background-color: #939fd1;
+    color: #0a3871;
+}
+
+.boton:hover {
+    transform: scale(1.02);
+    transition: 400ms;
+}
+
+
+
+.salida-invalida{
+    height: 100%;
+    width: 100%;
+}
+
+#muneco {
+    width: 90%;
+    height: 70%;
+    margin: 5% 5% 0 5%;
+}
+
+.mensaje {
+    height: 10%;
+    width: 90%;
+    margin: 0 5% 5% 5%;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+}
+
+.uno {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.dos {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.salida-valida{
+    width: 100%;
+    height: 100%;
+}
+
+.mensaje-salida{
+    background-color: gray;
+    width: 80%;
+    height: 70%;
+    margin: 7.5% 10%;
+    color: #0a3871;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 22px;
+    font-family: "Inter";
+    font-style: normal;
+}
+
+.boton-copiar{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.botonCopiar{
+    margin: 7.5% 20% 0 20%;
+    height: 60%;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    color: #0a3871;
+}
+.botonCopiar:hover {
+    transform: scale(1.02);
+    transition: 400ms;
+}
+.botonCopiar:active{
+    background-color: #B2B8D1;
+    transition: 10ms;
+}
+.contacto {
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 35% ;
+}
+
+.redes-div{
+    width: 10%;
+    display: flex;
+    margin-left: 1%;
+}
+.redes{
+    margin-left: 0.5vw;
+    height: 4vh;
+    vertical-align: middle;
+}

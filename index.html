@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="/rec/code.svg">
+  <title>Encriptador</title>
+</head>
+
+<header>
+  <div class="encabezado">
+    <a href="https://www.aluracursos.com" target="_blank"><img src="/rec/logo.svg" alt="logo alura"/></a>
+    <h1 class="titulo"><a href="/index.html">Encriptador de texto</a></h1>
+  </div>
+</header>
+
+<body>
+  <main>
+    
+    <section class="seccion-entrada">
+      <div class="area-texto">
+        <textarea spellcheck="false" id="entrada-texto" cols="30" rows="10" placeholder="Escriba el texto aqui" autofocus></textarea>
+      </div>
+      <div class="advertencia">
+        <img id="icono-advertencia" src="/rec/advertencia.svg" alt="icono advertencia"/>
+        <p id="mensaje-advertencia">Solo letras minúsculas y sin acentos</p>
+      </div>
+      <div class="botones">
+        <button id="boton-encriptar" class="boton encriptar" onclick="encriptar()" value="Encriptar">Encriptar</button>
+        <button id="boton-desencriptar" class="boton desencriptar" onlick="desencriptar()" value="Desencriptar">Desencriptar</button>
+      </div>
+    </section>
+
+    <section class="seccion-salida">
+      <div id="salida-invalida" class="salida-invalida">
+        <img id="muneco" src="/rec/Muneco.svg" alt="" />
+        <p class="mensaje uno">Ningún mensaje fue encontrado</p>
+        <p class="mensaje dos">Ingresa el texto que desees encriptar o desencriptar.</p>
+      </div>
+      <div id="salida-valida" class="salida-valida">
+        <textarea id="mensaje-salida" class="mensaje-salida" spellcheck="false" readonly cols="30" rows="10"></textarea>
+        <div id="boton-copiar" class="boton-copiar"><button class="botonCopiar" >Copiar</button></div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="pie-pagina">
+    <p class="contacto">Hecho con 💙 por Fernando Calisaya</p>
+    <div class="redes-div">
+      <a target="_blank" href="https://github.com/califerdan">
+        <img class="redes" src="/rec/github.svg" alt="github logo">
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/fernando-calisaya-a2b9a3224/">
+        <img class="redes" src="/rec/linkedin.svg" alt="linkedin logo">
+      </a>
+    </div>
+  </footer>
+    <script src="/main.js" ></script>
+</body>
+
+</html>
