@@ -240,27 +240,27 @@ main {
         margin: 0;
         padding: 0;
     }
-    .encabezado {
-        width: 100%;
-        height: 6vh;
-    }
     
-    .encabezado img {
-        width: 3vw;
-        height: 100%;
-        margin-left: 3vw;
-    }
+.encabezado {
+    width: 100%;
+    height: 6vh;
+}
     
-    .titulo {
-        width: 60%;
-        margin: 0 auto;
-        font-size: 1.4rem;
-    }
+.encabezado img {
+    width: 3vw;
+    height: 100%;
+    margin-left: 3vw;
+ }
+    
+.titulo {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
         
-    main {
-        display: block;
-    }
-    
+main {
+    display: block;
+}  
     
 .seccion-entrada {
     width: 96%;
@@ -275,13 +275,11 @@ main {
 }
 
 .pie-pagina {
-
     width: 100%;
     height: 5vh;
 }
 
 .area-texto {
-
     width: 100%;
     height: 75%;
 }
@@ -387,26 +385,24 @@ main {
 }
 
 @media(max-width: 500px){
-
     .encabezado {
-        width: 100%;
-        height: 7vh;
-    }
+    width: 100%;
+    height: 7vh;
+}
     
-    .encabezado img {
-        width: 5vw;
-        height: 100%;
-        margin-left: 4vw;
-        margin-top: 1vh;
-    }
+.encabezado img {
+    width: 5vw;
+    height: 100%;
+    margin-left: 4vw;
+    margin-top: 1vh;
+}
     
-    .titulo {
-        width: 80%;
-        font-size: 1.2rem;
-    }
+.titulo {
+    width: 80%;
+    font-size: 1.2rem;
+}
 
 .seccion-entrada {
-
     width: 96vw;
     height: 55vh;
     margin: 1vh 2vw;
@@ -490,13 +486,11 @@ main {
 }
 
 .contacto {
-    background-color: white;
-    margin: 1% 0 0 7%;
+    margin: 1% 0 0 10%;
     font-size: 0.75rem;
 }
 
 .redes-div{
-    background-color: green;
     width: 15%;
     margin-left: 1%;
     margin-top: 1%;
